@@ -9,7 +9,8 @@ on:
   schedule:
     # Write in UTC+0!
     # For example, 07:05 everyday in UTC+8 equals 23:05 everyday in UTC+0
-    - cron: '07 16,4 * * *'
+    - cron: '27 16,4 * * *'
+    # 27分，世界标准时间的16点和4点，每天每月每年
 
 jobs:
   build:
